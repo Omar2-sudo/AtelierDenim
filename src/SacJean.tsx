@@ -11,14 +11,14 @@ const SacJean = () => {
       genou: {
         id: 1,
         name: "Sac Genou",
-        price: 45.00,
+        price: 10.00,
         quantity: 1,
         image: "https://images.unsplash.com/photo-1491637639811-60e2756cc1c7?w=400&h=400&fit=crop"
       },
       cul: {
         id: 2,
         name: "Sac Cul",
-        price: 55.00,
+        price: 10.00,
         quantity: 1,
         image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=400&fit=crop"
       }
