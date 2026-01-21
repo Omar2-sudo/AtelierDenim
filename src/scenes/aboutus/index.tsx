@@ -31,9 +31,10 @@ const aboutus = ({ setSelectedPage }: Props) => {
           transition={{ duration: 1 }}
           viewport={{ once: true, amount: 0.5 }}>
           <h1 className='text-white text-xl'>
-            Bienvenue chez Atelier Denim : Là où le jean oublié devient une pièce d'exception<br />
-            Chez Atelier Denim, nous refusons le diktat de la mode jetable et l'uniformité des grandes chaînes. Nous croyons que le véritable luxe réside aujourd'hui dans la créativité responsable et l'audace de faire différemment. Notre mission est de réécrire l'histoire de jeans oubliés pour leur offrir une seconde vie spectaculaire sous forme de sacs à main durables et entièrement artisanaux. Loin de la production de masse et des étiquettes hors de prix, nous avons choisi de valoriser le travail local et l'économie circulaire pour vous offrir un style sans compromis.
-            Chaque création qui sort de notre atelier est une célébration de l'unicité. En exploitant les nuances, les poches et les textures du denim recyclé, nous concevons des modèles ingénieux — comme nos signatures « Sac Genoux » et « Sac Fesses » — qui allient esthétisme urbain et praticité. Parce que chaque toile de denim a son propre vécu, aucun sac n'est identique à un autre ; posséder une pièce Atelier Denim, c'est porter une création exclusive que vous ne verrez sur personne d'autre. Portée par une équipe passionnée, notre marque prouve qu'il est possible d'être à la fine pointe de la mode tout en réduisant notre empreinte écologique.
+            hez Atelier Denim, nous croyons qu'il est temps de dire adieu à la mode jetable et de réinventer l'accessoire.
+           Dans un marché où l'uniformité règne et où l'impact environnemental de l'industrie textile est colossal, 
+           nous avons fait le choix de la créativité responsable.
+           Notre mission est de donner une nouvelle vie à des jeans oubliés pour créer des sacs à main durables, audacieux et surtout, uniques.
           </h1>
           <button className="group mt-4 text-primary-200 hover:text-primary-100 transition-colors">
             <span className="flex items-center gap-2" onClick={() => navigate('/aboutus')}>

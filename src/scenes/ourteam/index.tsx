@@ -3,15 +3,16 @@ import { useState } from 'react'
 import useMediaQuery from "@/Hooks/useMediaQuery";
 
 const team = [
+  { name: 'Simone Regnault', role: 'Presidente' },
   { name: 'Omar Basfaou', role: "VP RH et DD" },
-  { name: 'Simone Regault', role: 'Presidente' },
-  { name: 'Ahmed', role: 'VP Ventes' },
-  { name: 'Melia', role: 'Jai oublier ton role' },
-  { name: 'Maude', role: 'VP Communication' },
-  { name: 'Malik'},
-  { name: 'Sacha'},
-  { name: 'Aurelien' },
-  { name: 'Walid'}
+  { name: 'Ahmed Miloudi', role: 'VP Ventes' },
+  { name: 'Malik Grim', role: 'VP Communication'},
+  { name: 'Adam Leung', role: 'VP Finance'},
+  { name: 'Zackary Messissi', role: 'VP Production'},
+  { name: 'Melia Chau' },
+  { name: 'Sacha Suffrin'},
+  { name: 'Aurelien Martinez' },
+  { name: 'Walid Dmimer'}
 ]
 
 type Props = {
