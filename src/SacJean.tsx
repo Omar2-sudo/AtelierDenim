@@ -6,7 +6,7 @@ const SacJean = () => {
   const [hoveredCard, setHoveredCard] = useState<string | null>(null)
   const navigate = useNavigate()
 
-  const handleAddToBasket = (productType: 'genou' | 'cul') => {
+  const handleAddToBasket = (productType: 'genou' | 'fesses') => {
     const products = {
       genou: {
         id: 1,
@@ -15,9 +15,9 @@ const SacJean = () => {
         quantity: 1,
         image: "https://images.unsplash.com/photo-1491637639811-60e2756cc1c7?w=400&h=400&fit=crop"
       },
-      cul: {
+      fesses: {
         id: 2,
-        name: "Sac Cul",
+        name: "Sac Fesses",
         price: 10.00,
         quantity: 1,
         image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=400&fit=crop"
@@ -239,9 +239,9 @@ const SacJean = () => {
 
         {/* Sac Cul Card */}
         <div
-          onMouseEnter={() => setHoveredCard('cul')}
+          onMouseEnter={() => setHoveredCard('fesses')}
           onMouseLeave={() => setHoveredCard(null)}
-          onClick={() => hoveredCard === 'cul' && handleAddToBasket('cul')}
+          onClick={() => hoveredCard === 'fesses' && handleAddToBasket('fesses')}
           style={{
             background: '#154C94',
             borderRadius: '24px',

@@ -73,7 +73,7 @@ const BuyNow = ({ setSelectedPage }: Props) => {
           onClick={()=>navigate('/SacJean')}
           className="relative z-10 bg-primary-100 text-white px-12 py-4 text-2xl font-bold rounded-full hover:bg-primary-200"
         >
-          Buy Now
+          Achete
         </button>
       </motion.div>
     </section>

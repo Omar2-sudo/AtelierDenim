@@ -58,7 +58,6 @@ function App() {
       <AboutUs setSelectedPage={setSelectedPage}/>
       <OurTeam setSelectedPage={setSelectedPage}/>
       <Prize setSelectedPage={setSelectedPage}/>
-      <Donation setSelectedPage={setSelectedPage}/>
     </div>
   </div>
 </div>
