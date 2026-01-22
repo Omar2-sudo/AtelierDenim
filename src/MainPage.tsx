@@ -5,7 +5,6 @@ import OurTeam from "@/scenes/ourteam"
 import Prize from "@/scenes/prize"
 import HomePageGraphic from "@/assets/jeans.jpg"
 import { useEffect, useState } from "react";
-import Donation from "./scenes/donation"
 
 
 function App() {
